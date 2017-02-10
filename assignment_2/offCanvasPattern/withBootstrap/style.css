@@ -1,0 +1,10 @@
+body{
+	margin:0px;
+}
+.removeMargin{margin-bottom:0px!important;}
+.laft_panel{height:100%;background: gray;}
+.right_panel{height:100%;background: red;}
+.gap{padding:1%;}
+@media only screen and (max-width:600px){
+
+}

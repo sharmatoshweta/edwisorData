@@ -1,0 +1,37 @@
+<html lang="en-US">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="angular.js"></script>
+	</head>
+	<body>
+
+		<div ng-app="myApp" ng-controller="customersCtrl"> 
+			<h3>{{firstData.name}}</h3>
+			<div style="width:20%;float:left;">Date</div><div style="width:20%;float:left;">Team 1</div><div style="width:20%;float:left;">Team 1 Score</div><div style="width:20%;float:left;">Team 2</div><div style="width:20%;float:left;">Team 2 Score</div>
+			<br>
+			<div ng-repeat="x in firstData.rounds" style="border:1px solid black;">
+				
+				<div ng-repeat="y in x.matches">
+					<div style="width:20%;float:left;">{{ y.date }}</div>
+					<div style="width:20%;float:left;" >{{ y.team1.name }} </div>
+					<div style="width:20%;float:left;">{{ y.score1 }}</div>
+					<div style="width:20%;float:left;">{{ y.team2.name }}</div>
+					<div style="width:20%;float:left;">{{ y.score2 }}</div>
+					<br/>
+				</div>
+			</div>
+			</div>
+	</body>
+	<script>
+		var app = angular.module('myApp', []);
+		app.controller('customersCtrl', function($scope, $http) {
+		    $http.get("https://raw.githubusercontent.com/openfootball/football.json/master/2015-16/en.1.json")
+		    .success(function (response) {
+		    	$scope.firstData = response;
+		    		$http.get('https://raw.githubusercontent.com/openfootball/football.json/master/2016-17/en.1.json').success(function(response1){
+            		$scope.secondData = response1;
+            	});
+		    });
+		});
+	</script>
+</html>

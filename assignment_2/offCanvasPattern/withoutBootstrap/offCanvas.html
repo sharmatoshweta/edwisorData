@@ -1,0 +1,36 @@
+<!doctype>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="laft_panel" id="laft_panel"></div>
+				<div class="right_panel" id="right_panel">
+					<div class="gap"><a href="#" onclick="show()" id="open"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a><a href="#" onclick="jl()" id="close" style="display:none;"><i class="fa fa-bars fa-2x" aria-hidden="true" style="transform:rotate(90deg)"></i></a></div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function jl(){
+				document.getElementById("open").style.display ="block";
+				document.getElementById("close").style.display ="none";
+				document.getElementById("laft_panel").style.marginLeft ="-20%";
+				document.getElementById("right_panel").style.width ="100%";
+				document.getElementById("laft_panel").style.transition = "all 1s"; 
+				document.getElementById("right_panel").style.transition = "all 1s"; 
+			}
+			function show(){
+				document.getElementById("open").style.display ="none";
+				document.getElementById("close").style.display ="block";
+				document.getElementById("laft_panel").style.marginLeft ="0";
+				document.getElementById("right_panel").style.width ="80%";
+				document.getElementById("laft_panel").style.transition = "all 1s"; 
+				document.getElementById("right_panel").style.transition = "all 1s"; 
+			}
+			
+		</script>
+	</body>
+</html>

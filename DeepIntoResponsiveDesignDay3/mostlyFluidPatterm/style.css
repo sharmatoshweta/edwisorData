@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	padding: 3em;
+	font-size:12px;
+}
+section p{
+	padding:0 1em;
+}
+section h1{
+	padding:0.5em 1em;
+}
+section h2{
+	padding:0 1em;
+}
+section h3{
+	padding:0 1em;
+}
+.main {
+  background-color: #e0dede;
+  font-size:1em;
+}
+
+.c1 {
+  background-color: #e0dede;
+  font-size:1em;
+  width:100%;
+  float:left;
+}
+.c2 {
+  background-color: #e0dede;
+  font-size:1.5em;
+  width:50%;
+  float:left;
+}
+
+.c3{
+  background-color: #e0dede;
+  font-size:1.5em;
+  width:50%;
+  float:left;
+}
+.c4{
+	background-color: #e0dede;
+  font-size:1em;
+  width:100%;
+  float:left;
+}
+}

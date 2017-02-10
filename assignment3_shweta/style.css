@@ -1,0 +1,92 @@
+body{background:#E9EBEE;font-size:13px;color:#3B5998;}
+.rowTop{background:white;padding-bottom:.3em;border:1px solid silver;border-radius:0 0 5px 5px;}
+.coverHeight{max-height:300px;overflow:hidden;margin:0px;padding:0px;}
+.profileHeight{max-height:200px;width:100%;border:5px solid white;border-radius:5px;margin-top:-85%;margin-left:20%;box-shadow: 1px 1px 1px 1px silver;}
+.userName{font-size:2.4em;margin-top:-5%;color:white;}
+.titleBar{font-size:1.3em;text-align: center;padding:.7em 0;}
+.nf:hover{background: #F6F7F9}
+.nf{padding: .3em;border:1px solid silver;font-weight:600;color:#3B5998;cursor:pointer;}
+a:hover{text-decoration: none;}
+.active:hover{background: white;}
+.active{color:black;}
+.aboutMe{font-size:1.3em;text-align: center;padding:.7em;}
+.heading{padding-left:2em;}
+.SPAN_1 {height: 9px;left: 4em;position: absolute;top: 2.3em;width: 17px;background: rgba(0, 0, 0, 0) url("images/upperArrow.png") no-repeat scroll 0px -46px / auto padding-box border-box;}/*#SPAN_1*/
+.aboutHeading{border:1px soild silver;border-radius: 5px;}
+.fontColor{color:silver;}
+.aboutRow{margin-top:2em;margin-bottom:2em;}
+.aboutHeadingBox{padding:0.5em;background:#F6F7F9;border:1px solid silver;font-weight: 600;font-size: 1.8em;}
+.detailAbout{background: white;border:1px solid silver;border-top:0px;padding:0em;}
+.leftBorder{border-left: 1px solid silver;min-height:270px;}
+.noPadding{padding-left:0px;padding-right: 0px;}
+.noMargin{margin:0px;}
+.tabGap{padding:1em;color:gray;font-size:1.1em;}
+.tabGap:hover{background: #F6F7F9;color:black;cursor:pointer;}
+.tabActive{border-left:5px solid #3B5998;font-weight: 600;color:black;cursor:pointer;}
+.tabActive:hover{background: white;}
+.tabPanHeading{font-weight: 600;float:left;padding:.2em .8em;color:#3B5998;cursor:pointer;}
+.tabPanActive{color:black;}
+.upperGap{margin-top:2em;}
+.whiteBackground{background: white;border-radius: 2px;padding:1em;}
+.leftPaddingNone{padding-left:0px;}
+.rightPaddingNone{padding-right:0px;}
+.overviewSection{padding:2em;}
+.contactOverView{padding:1.2em;}
+.upDownBorder{border-top: 1px solid silver;border-bottom: 1px solid silver}
+.photoForAlbum{height:200px;border:5px solid white;box-shadow: 1px 1px 1px 1px silver;margin: 1em 0;}
+.teamName{text-align: center;width:100%;font-weight: 600;margin-bottom:1em;}
+.userNameOnPost{font-weight: 600;}
+.userNameSpan{font-size: 0.8em;color:silver;max-width:80%;}
+.paddingForPost{padding:3em;}
+.eachPost{margin-bottom: 1em;background: white;padding:1em;}
+.littleBold{font-weight: 600;text-decoration: underline;}
+@media screen and (min-width:551px) and (max-width:1150px){
+	.profileHeight{margin-top:-65%;}
+	.userName{font-size:1.8em;margin-top:-8%;}
+	.heading{padding-left:3em;}
+	.titleBar{padding:1.4em 0;}
+	.SPAN_1{display:none;}
+}
+@media screen and (min-width:551px) and (max-width:776px){
+	.hideInSmall{display:none;}
+	.tabGap{padding:0.8em;color:gray;font-size:1em;}
+}
+@media screen and (min-width:351px) and (max-width:550px){
+	.userName{font-size:1.5em;margin-top:-10%;}
+	.heading{padding-left:2em;}
+	.titleBar{font-size:.9em;}
+	.SPAN_1{display:none;}
+	.hideInSmall{display:none;}
+	.tabGap{padding:0.5em;color:gray;font-size:0.8em;}
+}
+@media screen and (min-width:251px) and (max-width:350px){
+	.profileHeight{margin-top:-95%;}
+	.userName{font-size:1em;margin-top:-12%;}
+	.heading{padding-left:2em;}
+	.titleBar{font-size:.6em;}
+	.SPAN_1{display:none;}
+	.hideInSmall{display:none;}
+	.tabGap{padding:0.3em;color:gray;font-size:0.8em;}
+	.overviewSection{padding:1em;font-size:1em;}
+	sub{line-height:12px;}
+}
+@media screen and (min-width:0px) and (max-width:250px){
+	.userName{font-size:.5em;margin-top:-12%;}
+	.heading{padding-left:2em;}
+	.titleBar{font-size:.4em;padding:1.4em 0;}
+	.SPAN_1{display:none;}
+	.hideInSmall{display:none!important;}
+	.fullInSmall{width:100%;}
+	.tabGap{padding:0.1em;color:gray;font-size:0.4em;}
+	.overviewSection{padding:0.3em;font-size:0.8em;}
+	sub{line-height:10px;}
+}
+@media screen and (min-width:150px) and (max-width:200px){
+h2{font-size:15px!important;}
+}
+@media screen and (min-width:100px) and (max-width:149px){
+h2{font-size:12px!important;}
+}
+@media screen and (min-width:50px) and (max-width:99px){
+h2{font-size:10px!important;}
+}

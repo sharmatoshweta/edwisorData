@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  
+<style> 
+
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: #D8D8D8;
+    }
+
+    .myFont {
+      
+      text-align: center;
+    }
+
+    .my-container {
+        display: -webkit-flex;
+        display: flex;
+       /* to tell that elements should wrap themselves to next line*/
+        flex-wrap :wrap; 
+        
+        width:  100%;
+        background-color: #D8D8D8;
+    }
+
+
+
+    .container-item {
+      height:300px;
+        
+    }
+
+    
+    .blue {
+       background-color: #0081EA;
+       float:left;
+    }
+    .red {
+      background-color: #EA000B; 
+      float:left;
+    }
+    .green {
+      background-color: #068400;
+      float:left;
+    }
+    .purple {
+      background-color: #3F3FBF;
+      float:left;
+    }
+
+</style>
+</head>
+<body>
+  <div class="my-container">
+    <div class="flex_1">
+      <div class="container-item blue myFont">Blue Box</div>
+    </div>
+    <div class="flex_1">
+      <div class="container-item red myFont">Red Box</div>
+      
+        <div class="container-item green myFont">Green Box</div> 
+        <div class="container-item purple myFont">Purple Box</div>
+      
+    </div>
+  </div>
+
+  
+
+</body>
+</html>

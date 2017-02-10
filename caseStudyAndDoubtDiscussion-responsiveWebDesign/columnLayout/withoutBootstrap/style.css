@@ -1,0 +1,121 @@
+body{
+	margin:0px;padding:0px;
+}
+.container{
+	background:yellow;height:100px;
+}
+.row{
+	background:red;height:inherit;margin:auto;
+	}
+.blue{
+	background: blue;height:inherit;float:left;
+}
+.red{
+	background:red;height:inherit;float:left;
+}
+.green{
+	background: green;height:inherit;float:left;
+}
+.black{
+	background:black;height:inherit;float:left;
+}
+.orange{
+	background: orange;height:inherit;float:left;
+}
+.pink{
+	background:pink;height:inherit;float:left;
+}
+@media screen and (min-width: 1400px){
+	.container{
+		width:100%;
+	}
+	.blue{
+		width:60%;
+	}
+	.red{
+		width:40%;
+	}
+	.green{
+		width:40%;
+	}
+	.black{
+		width:60%;
+	}
+	.orange{
+		width:75%;
+	}
+	.pink{
+		width:25%;
+	}
+
+}
+@media screen and (min-width: 768px){
+	.container{
+		width:100%;
+	}width:80%;
+	}
+	.blue{
+		width:60%;
+	}
+	.red{
+		width:40%;
+	}
+	.green{
+		width:40%;
+	}
+	.black{
+		width:60%;
+	}
+	.orange{
+		width:75%;
+	}
+	.pink{
+		width:25%;
+	}
+}
+@media screen and (min-width: 480px ) and (max-width: 767px){
+	.container{
+		width:100%;
+	}
+	.blue{
+		width:60%;
+	}
+	.red{
+		width:40%;
+	}
+	.green{
+		width:40%;
+	}
+	.black{
+		width:60%;
+	}
+	.orange{
+		width:75%;
+	}
+	.pink{
+		width:25%;
+	}
+}
+@media screen and (max-width: 479px){
+	.container{
+		width:100%;
+	}
+	.blue{
+		width:100%;
+	}
+	.red{
+		width:100%;
+	}
+	.green{
+		width:100%;
+	}
+	.black{
+		width:100%;
+	}
+	.orange{
+		width:100%;
+	}
+	.pink{
+		width:100%;
+	}
+}

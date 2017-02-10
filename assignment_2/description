@@ -1,0 +1,99 @@
+Currrent folder contains following files in sub-folders
+
+
+Task 1 : 
+
+
+Responsive design patterns blocks ---->
+I have created responsive pages which contains some simple boxes with all types of responsive design patterns and those are present in following place.
+
+
+
+
+1. Column Layout Using Botstrap(.html file 'columnLayoutWithBootstrap.html' and its .css file with name 'style.css') present in:-
+
+		columnLayout/withBootstrap/columnLayoutWithBootstrap.html
+		columnLayout/withBootstrap/style.css
+
+
+2. Column Layout Without Using Bootstrap(.html file 'columnLayout.html' and its .css file with name 'style.css') present in:-
+
+		columnLayout/withoutBootstrap/columnLayout.html
+		columnLayout/withoutBootstrap/style.css
+
+
+
+
+
+3. Layout Shifter pattern Using Botstrap(.html file 'layoutShifterWithBootstrap.html' and its .css file with name 'style.css') present in:-
+
+		layoutShifter/withBootstrap/layoutShifterWithBootstrap.html
+		layoutShifter/withBootstrap/style.css
+
+
+4. Layout Shifter pattern Without Using Bootstrap(.html file 'layoutShifter.html' and its .css file with name 'style.css') present in:-
+
+		layoutShifter/withoutBootstrap/layoutShifter.html
+		layoutShifter/withoutBootstrap/style.css
+
+
+
+
+
+5. Mostly Fluid pattern Using Botstrap(.html file 'mostFluidWithBootstrap.html' and its .css file with name 'style.css') present in:-
+
+		mostlyFluid/withBootstrap/mostFluidWithBootstrap.html
+		mostlyFluid/withBootstrap/style.css
+
+
+6. Mostly Fluid pattern Without Using Bootstrap(.html file 'mostlyFluid.html' and its .css file with name 'style.css') present in:-
+
+		mostlyFluid/withoutBootstrap/mostlyFluid.html
+		mostlyFluid/withoutBootstrap/style.css
+
+
+
+
+
+7. Off Canvas pattern Using Botstrap(.html file 'offCanvasWithBootstrap.html' and its .css file with name 'style.css') present in:-
+
+		offCanvasPattern/withBootstrap/offCanvasWithBootstrap.html
+		offCanvasPattern/withBootstrap/style.css
+
+
+8. Off Canvas pattern Without Using Bootstrap(.html file 'offCanvas.html' and its .css file with name 'style.css') present in:-
+
+		offCanvasPattern/withoutBootstrap/offCanvas.html
+		offCanvasPattern/withoutBootstrap/style.css
+
+
+
+
+
+
+
+Task 2 : 
+
+
+Portfolio folder contains my portfolio and supporting files:-
+
+1. 'shwetaPortfolio.html' is the main file to execute to run portfolio in browser.
+2. supporting files like .cc and .js files and images are present in the folder name "files".
+
+
+
+
+
+
+
+Task 3 : 
+
+
+my portfolio on github is placed at :-  https://github.com/sharmatoshweta/myPortfolio
+
+
+
+
+
+
+NOTE: All the code for responsive designing is working fine in Windows(Google Chrome and Mozilla firefox both browser) but in Ubuntu working only in mozilla firefox but not working in Google Chrome(while using bootstrap), i dont know its my browser mistake or something else, because according to me code is absolutly fine...  have posted this query to Discussion Board too but i dont get any reply there, So please let me know what the problem is this and how do i solve it?

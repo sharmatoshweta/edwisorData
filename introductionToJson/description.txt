@@ -1,0 +1,7 @@
+1. First i have tried to created a json replica of a Facebook Post that is present in following file :- createFacebookPost.json
+
+2. Then i have created a Function to Read data from JSON file and display it in console, which is present in following file :- readDataFromJson.js
+
+3. Than i have created a Function to find a particular entry from JSON store using a id (whatever field you want); here i tried to get user's full name by concating first name and last name of user and this code is present in following file :- getDataByGivenIdFromJsonPost.js
+
+4. Then i have created a Function to find a particular entry by its position/index (index in the array); JSON data is present in the file itself followed by the function in the following file :- findParticularEntryByPosition.js
