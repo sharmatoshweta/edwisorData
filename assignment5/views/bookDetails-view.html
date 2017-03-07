@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-panel" >
+        <center><h1>{{ bookDetails.responseData.name }}<br><sub ng-repeat="authors in bookDetails.responseData.authors" >( By {{ authors }} )</sub></h1></center>
+        <table class="table table-bordered table-hover">
+          <tbody>
+            <tr>
+              <td>ISBN No.</td><td>{{ bookDetails.responseData.isbn }}</td>
+            </tr><tr>
+              <td>No of Pages</td><td>{{ bookDetails.responseData.numberOfPages }}</td>
+              </tr><tr>
+              <td>Publisher</td><td>{{ bookDetails.responseData.publisher }}</td>
+              </tr><tr>
+              <td>Country</td><td>{{ bookDetails.responseData.country }}</td>
+              </tr><tr>
+              <td>Released On</td><td>{{ bookDetails.responseData.released | date : format : timezone}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-panel" >
+      <center><h1>Characters</h1></center>
+
+      <table class="table table-bordered table-hover">
+          <tbody ng-repeat="characters in bookDetails.character">
+            <tr>
+              <td>
+              <table class="table table-bordered table-hover">
+                <tr>
+                  <td class="forthPercent">Name </td>
+                  <td class="sixtyPercent">{{ characters.name }}</td>
+                </tr>
+                <tr>
+                  <td>Gender </td>
+                  <td>{{ characters.gender }}</td>
+                </tr>
+                <tr>
+                  <td>Culture </td>
+                  <td>{{ characters.culture }}</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth </td>
+                  <td>{{ characters.born }}</td>
+                </tr>
+                <tr>
+                  <td>Date of Death </td>
+                  <td>{{ characters.died }}</td>
+                </tr>
+                <tr>
+                  <td>Title </td>
+                  <td><span ng-repeat="aliase in characters.titles">{{ aliase }},</span></td>
+                </tr>
+                <tr>
+                  <td>Aliases </td>
+                  <td><span ng-repeat="aliase in characters.aliases">{{ aliase }},</span></td>
+                </tr>
+              </table>
+            </tr>
+          </tbody>
+      </table>
+            
+      </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<center>
+	<ol>
+	<div class="bookList" ng-repeat="blog in dataToPresent.firstData" >
+		<li><a ng-href="#/bookDetails/{{blog.name}}">
+			{{blog.name}} 
+			<span>By</span> 
+			<span ng-repeat="authors in blog.authors">{{authors}}</span>
+		</a></li>
+	</div>
+	</ol>
+</center>
